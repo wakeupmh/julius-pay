@@ -1,0 +1,24 @@
+{
+  "name": "julius-pay",
+  "version": "1.0.0",
+  "description": "skills to pay the bills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node scraper/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wakeupmh/julius-pay.git"
+  },
+  "keywords": [],
+  "author": "@wakeupmh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wakeupmh/julius-pay/issues"
+  },
+  "homepage": "https://github.com/wakeupmh/julius-pay#readme",
+  "dependencies": {
+    "puppeteer": "^10.2.0"
+  }
+}
