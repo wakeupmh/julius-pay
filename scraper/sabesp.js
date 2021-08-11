@@ -1,4 +1,6 @@
-const puppeteer = require('puppeteer')
+const puppeteer = require('puppeteer-extra')
+const StealthPlugin = require('puppeteer-extra-plugin-stealth')
+puppeteer.use(StealthPlugin())
 
 const fillRGI = async (page, rgi) => {
   await page.waitForSelector('.w80VenEnd')
